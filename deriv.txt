@@ -1,0 +1,203 @@
+Deriv answers:
+Q:Why did you choose this particular school, and how has this influenced your career path? *
+answers: I chose IIT Madras for my Masters, as it has outstanding reputation as an engineering college, had strong industry connections, very good faculty and it offered flexibility to choose and learn courses from different streams like computer science and Mathematics, which was more aligned towards my professional goal to learn more about Data Science, Statistics and Machine learning. The Institute also offers a wide variety of curricular activities which helped me in my interpersonal skills  and through the rigorous academic program along with research helped me in improving my problem solving and research skills , both of which are essential for a good career infield of AI. Hence it significantly impacted my career path by providing me a platform for developing deep understanding of AI, problem solving and research skills.
+
+Q:Generally, what were your college years like? 
+Answer: College Years in IIT Madras while pursuing my masters were enriching although demanding . They were quite transformative as it helped me in becoming a better professional from both technical and behavioural perspective. The Course was quite demanding with exposure to data science , statistics  & Electrical engineering, helping me develop skills around research and problem solving. While juggling with Practical and theory classes, I used to be actively involved in various activities like Nature photography as our college campus was part of National Park along with organizing group activities for our group like beach nights , ice cream parties etc. Apart from this I used to take part in active fitness routine helping me leading a disciplined life. In hindsight, these activities taught me to balance high performance along with discipline, time management, organisational  and leadership skills.
+
+Q:Besta nd worst in college:
+Answer:
+Best: Best time in college year was pursuing a time series forecasting course, which was quite challenging and each assignment was an uphill task with lots of effort needed to come up with solutions, but it helped me push out of comfort zone to perform extensive research and understand topics which were completely new to me , and was very satisfying and rewarding to solve those problems. This helped me develop patience and become comfortable in performing deep research in completely unknow fields. 
+Worst: Worst time was when I had to drop off an advanced course on Machine learning in my first semester , due to not being able to follow the course material because of steep learning curve. It humbled me and taught me the need to learn the basics first before attempting advanced concepts, later on I took the foundational courses  and again attempted the course in third semester . This experience taught me the significance of covering basics as well as persistence
+
+Q: Career aspiration at the end of college:
+answer: My Primary aspiration was to be able to put my knowledge to solve real world problems . I was especially interested in working in the field of data science, while continuing to grow and learn in this field.
+
+Q what are key challenges you faced and how did you overcome those:
+answer: Over past 7 years, I have faced many challenges as an AI Consultant, among which the major ones are as follows:
+1. Aligning AI solution to Business goals & Measuring Impact: Many a times the business wants to introduce AI in their roadmap, but are unsure of the business impact it can produce and how AI might help them in their long term goal, say for example increasing user experience , but not sure how AI can help and how to measure impact. In such cases I help them by understanding the long term goal, doing a deep dive in the data available and chalk out different AI solutions we can build to help the user like actionable insights, with  lets say trend forecasting for example ,and defining criteria like uplift in CSAT score by 5%, or increasing the platform engagement by 10%  etc., which provides the confidence & clarity to business on How AI will help them out.
+2. Access to relevant , and good quality data: This is an ubiquitous problem with many businesses that the data is not in a good shape , present in silos, many a times incomplete or inaccurate, in such cases I take the help of business SME, to understand the business process, try to map the data to business and then help in identifying the relevant data and procedure to collate from different sources in shape and form needed for our use case. Many a times we need to augment data , cleanse it and perform sanity check as well to ensure the quality is good for training models.
+3.Understanding of AI : This is also one of the problem, where we have to interact with stakeholders with varying degree of maturity when it comes to AI, and it being a relatively new field, I encounter many situations where I have to work on understanding the AI maturity /understanding and then breakdown the solution into simple words with lots of analogies to help stakeholders understand the underlying concepts, risks and potential of the solution.
+4. PoCs to Production: I also encountered Situations where our team has done a good job in creating a PoC and now the POC needs to be deployed where lot of technical debt comes into picture for deploying ,running & Maintaining the solution with scalability and reliability. In those situation I work closely with the MLOPS/DevOps & engineering teams to implement robust CI/CD/CT pipelines along with Model monitoring and automated retraining 
+
+Q: Failure and how you addresses it:
+answer: One of the early failures I experienced was related to overfitting a time series forecasting model i was building for a FMCG client. I was too focussed on achieving a minimum error rate with hyperparameter tuning that I didn't realized , that I was using my test data metrics to tune my hyperparameters, and thus when we put this model into production it largely deviated from the actual values. I quickly did a Root cause analysis of the problem and realised that I was using test dataset for finetuning, After informing my manager and client about the findings, I came up with the resolution plan to address this by changing the source to validation data, tweak to algorithm for finding the best model by not chasing the validation error , but a weighted sum of error on train and validation, with evaluation running at least 5 times  over separate datasets, and also ensured that RBAC of test data is changed so that I am not able to access the test data at all.
+
+Q: what did you liked most and least abt the job?
+answer:Most: I got the opportunity to work in wide variety of businesses as well as all major verticals of AI like NLP, Gen AI, Predictive modelling, Forecasting, which kept the work stimulating and interesting. I was part of/led many end to end solutions right from the discovery to deployment, which helped me grow my technical skills as well as problem solving and leadership skills.
+Least: it was the occasional misalignment between client expectation and AI capabilities, as sometime the client wanted it to be plug and play or ready to use solution, but AI generally involves training model very specific to use cases provided by the client on their data , so a lot of time goes into re educating the clients about the AI capabilities and expectations from AI solutions. But over the time, I was able to manage it with  setting and communicating clearer expectations and impacts which can be measured and involving  relevant stakeholders and taking their feedback early in  the project.
+
+JSPL:
+Q key challenegs:
+Main Key challenge in this role was maintaining high reliability of manufacturing equipment and periodic maintenance, and in order to achieve this I created a system of preventive maintenance schedule and easy to use instruction sheet to track the compliance of the same. Apart from that , there was also challenges related to spare availability, for that I worked meticulously with  Purchase department to establish a pool of trusted suppliers  and OEM alternative spares to ensure availability as OEM lead time was very high. Apart from this I also created analytical solution over spreadsheet to forecast the usage and stock out time to trigger purchase request in a timely manner for consumables as well as spares.
+
+Q: failure:
+One of the most significant failure was delayed  identification of a very simple fault in our power system board for one of the machines due to misdirected search in a irrelevant circuit, which led to loss of 2 whole days for the production unit. Post finding it , I performed a root cause analysis  which showed the raising of irrelevant error codes in the system as the main source of misdirection , as I could not change the programming logic of the machine, I prepared a list of alternative circuits to look into for different error codes by studying the circuit and logic of the machine which helped in reducing the fault identification efforts greatly
+
+Q:impact:
+Biggest impact i made was around reduction in electrical breakdown by 15% by putting in place robust maintenance schedule, appropriate staffing and spare inventory management. Apart from this I also created one analytical solution to identify anomalies using the sensor data which greatly reduce the root cause analysis for any failure happening
+
+Q what are u looking for in next role, how deriv helps:
+For my next role, i am looking forward to combine my technical expertise in Gen AI with leadership responsibilities, to build, grow and mentor high performing Gen AI (AI in general) team. I am especially interested in roles where I can own and lead end to end solution in this space and see the solution I help in building make impact directly on the business. I believe Deriv is a good fit for this , as its providing ,me the opportunity to mentor, lead and grow the team in Gen Ai space and financial sector, which has lots of potential for Gen Ai based use cases. Hence this role will also be providing me chance to grow and learn as well. 
+
+q: where do u see yourself in next 5-10 years:
+As the Gen AI field is still in nascent stage, So i see a lot of growth opportunity for me in this field. Over the course of next 5-10 years, i see myself growing into a senior engineering leadership role, like Director or VP of AI Engineering, where I can influence both technical and organizational strategy related to AI and help Deriv grow as an AI  & innovation leader in finance (trading) domain. In near term my goal is to build & lead high performing AI team which can deliver scalable, robust and compliant AI/Gen AI driven solutions for Finance domain 
+
+Q : ideal day at work:
+
+My Ideal day at work is a balanced mix of team collaboration, research, problem solving and strategic thinking. My day starts with getting updates on the ongoing initiatives, reviewing progress and unblocking any issue my team has which might involve collaborating with cross functional team or business. I enjoy technical deep dives and discuss with team latest research or experiments I performed. Post this, part of day is dedicated to mentoring team members , doing code review offering feedback and helping them grow. The last part of the day will be for any long term planning, roadmap revisions, strategy discussions and updates and feedback with all stakeholders and business alignment discussions.
+
+Q:best and worst decison:
+Best : One of the best decision I made in the last year was developing reusable components for a Gen AI project. I was getting lots of requests from different stakeholders for creating Gen AI based projects for their use cases , but primarily the use cases revolved around RAG. Chatbot & PDF processing , so I proactively, developed generic modules required for these core use cases and that greatly reduced the effort required to create separate use cases leading to faster experimentation and development.
+Worst: For one of the projects , I made assumptions around the data quality to be good , as client ensured that it was good, and without seeing the data, we estimated our efforts around development of a RAG pipeline for the same, however my assumptions were wrong as the data was not ready for RAG and lot of iterations and discussion was needed to finalize the format of the data and processing of the same, which led to couple of weeks delay in our project. To mitigate this, I always request for sample of data now, early in the discussion and try to keep buffer in our estimate for data related issues as well.
+
+Q: skills:
+Over pas several years I have acquired a mix set of technical and managerial/leadership skills:
+Technical skills: 
+AI/ML Development: Designed and deployed machine learning and deep learning models across use cases like NLP, predictive analytics, time series forecasting.
+MLOPS & Deployment: Gained experience in end-to-end model lifecycle management, including CI/CD/CT pipelines, model monitoring, API creation using FastAPI and cloud deployment over Azure & AWS.
+Gen AI : Gained experience in developing end to end LLM based solution(agentic & chain based) using frameworks like Langchain, , Langgraph, DeepEval, Azure Open AI, vector stores like Qdrant, Chromadb.
+Leadership & Management Skills:
+Requirement Gathering: undertook ownership of engaging clients and internal stakeholders to understand business process, clear and actionable requirements and translating them into software requirements for the team to work upon, ensuring alignment between business goal and solutions' impact
+stakeholder management: Developed the skill to translate technical solution into business values, and manage expectation of all stakeholders, engineering  and support function teams through clear communication and defining responsibility boundaries 
+Cross‑functional Team collaboration & mentoring: Acted as a bridge between data science, engineering, support functions and business teams; mentored junior members and promoted knowledge sharing.
+End to end Project Ownership: Took end-to-end responsibility for project delivery—scoping, planning, execution, and post-deployment support.
+Research & Problem Solving: Developed strong applied research and problem solving skills for working in varied business domain and variety of business problems , evaluating different models, keeping track of usefulness of latest research  for existing/new use cases & practical experimentation.
+
+Q: what changes for next job:
+As my next job at Deriv will be a formal Engineering Manager role, so certainly I will be focusing more on delegation to the team with ownership to encourage autonomy and motivation to work, while playing a bigger part in removing blockers for the team and ensuring the team is aligned with the business goals. Apart from this , i will have tighter alignment with business stakeholders, so as to ensure high impact of solution on business and ensure the priorities and needs of the user and and business are met effectively.
+
+Q: Techncial Books:
+Learning is an essential part of my professional goal and hence I make sure to devote certain time slot for it daily, via online courses and reading technical books. I am an active user of various online technical blogs like ByteByteGo, TL;DR, AIM , arxiv, medium,  to enrich my technical Knowledge. Apart from this I have read books like Designing Machine leraning Systems by Chip Huyen  & Generative Deep Learning By David foster to further deepen my knowledge in the field of AI.
+
+Q: what are the lessons learned:
+Over the years I have learned several important lessons like: 
+1. Building/Training Model is the easy part, acquiring data for this , deploying it into production, making the model robust and monitoring and scaling the solution is where the real effort goes in.
+2.Model and solution should be kept as simple as possible as simple models have high chance of providing explain ability behind predictions and thus help business understand why a prediction was churned out as compared to black box model.
+3. Even if we have a very good model trained, but it doesn't solve the business problem as per the defined business metrics or shows business impact in a tangible way , then it might not be used.
+4. Regular feedback both in giving and receiving is very helpful in finding misalignments and rectifying them early
+5.A team with average performers who trust and motivate each other is far better then a team of high performers without trust and harmony when working towards common business objective. 
+6. Clear Communication and clarity help in producing results faster and better aligned to business gioals
+
+Q What motivates you:
+The main motivation for me is working on real world problems &  seeing the impact the solution makes in real world. Apart from this another big motivator is the learning I get from working on these use cases and growth of my team as well as me. I find it deeply satisfying when technology like AI help in creating tangible  improvements like savings human efforts and ultimately saving cost and I have been an enabler of the same. Apart from this i love learning new concepts, technologies and mentoring team members, helping them to grow personally and professionally
+
+Q: fast pace slow pace:
+I like to work at a steady focused pace that balances speed with quality. But there can be scenarios requiring a fast pace of work like client delivery, MVP creation,  or incident responses, i tend to move quickly as these are time sensitive requirements, but I understand when to slow down as well , as a fast pace is not always sustainable , and can be detrimental to the team's health  and can lead to burnouts as well over long durations.
+
+Q: do u think abt work outside , work life balance:
+Yes to some extent as I consider work with lots of ownership and therefore i sometime reflect upon the challenges being faced, ideas, or team dynamic, especially if we are in middle of critical situation, but having said that, i try to maintain a healthy work life balance both for me and my team by setting boundaries and disconnecting when needed to come back with fresh perspective
+
+Q:how u describe work habits:
+I would describe it as structured , focused and collaborative with always an eye out for larger picture or overall business goals. I Like to prioritise and reprioritise my and my team's task if needed based on business impact and urgency. I believe working with clear proactive communication and starting with "Why" for the tasks helps in providing clarity and staying on Track with deliverables.
+
+Q:how organised are you and area of improvwment in organisational abilities:
+I consider myself highly organised and structured especially when it comes to managing team, handling multiple priorities and managing complex projects requiring collaboration with cross functional teams as well. I use a combination of tools like excel, notes or client approved tools  to track the deliverables, timelines, progress and blockers/dependencies. This also helps me in providing clarity to the team on the tasks & timelines.  and make the changes or reprioritisation as we go along the way depending on business needs. Something i believe i need to work and improve upon is around delegation during fast paced deliveries as sometimes i tend to get involved  in the development activities when there are lots of high priority tasks coming and need to maintain the quality, but in long run, it can lead to mismanagement so scaling through delegation and trusting team in long run is better
+
+Q: how much supervisoon needed:
+I am highly self directed and require minimal supervision, as over past several year, i have been involved in leading  end to end AI solutions directly interacting with client and business stakeholder, but having said that, regular alignments with business and feedback from the stakeholders really help in staying on track and tight alignment with business objectives
+
+Q: describe situation where things didnt go as planned:
+For one of our client who is in the space of bridging the gap between research groups providers and researchers, I was tasked to create a recommendation engine which will take the past performance of providers and rank them against the requirements of researchers, we had assumed that all the data will be in flat files as the client communicated that all data is structured , and as such a simple predictive model was the initial approach we estimated and accordingly all the cost and timelines were worked upon, but during our first connect we got to know that its all text and our initial assumption didn't hold good, which would lead to changes in timelines and efforts. So i first informed my delivery manager as i was leading it from technical side, and explained in detail what we had assumed , and the need for change, and after taking her into confidence we communicated the same to client which lead to a change request and client was little bit unhappy about it. In retrospection, I should not have assumed and should have asked for a sample of data along with addition of ,some buffer for any surprises to handle it much better. Additionally, I should have communicated the assumptions with some examples to the client so that he was able to comprehend the assumptions and the risks involved.
+
+Q: how do u handle strees :
+I handle stress and pressure by remaining calm, prioritising the tasks at hand and breaking down the requirements into manageable pieces and focusing on the solution. Over pas several years, working over tight deadlines, unclear requirements and business constraints, I have learned that staying calm and composed is the first step in managing the challenging situation . Moreover, estimating the support needed and proactively reaching out to other teams or stakeholders also help in alleviating the pressure on team.
+I also practice physical activity like walking , Yoga, meditation to manage stress and encourage team to take short breaks , team activities like ice cream parties to reduce/manage stress.
+
+Q:How do u define urself ans emotional controlled what iiriate s you:
+I would describe myself as emotionally balanced and self-aware. Over the years, especially while leading teams and handling clients, I’ve developed strong emotional control—I stay calm under pressure, listen actively, and avoid reacting impulsively, even in challenging situations. 
+
+That said, one thing that can irritate me is when there’s a consistent lack of accountability or ownership. I value professionalism, and when deadlines are missed repeatedly without transparency, or when commitments are not followed through, it can be frustrating. But instead of reacting emotionally, I try to address it constructively—by setting clearer expectations, offering support, or having direct conversations to resolve the issue.
+
+Q: How many times lost cool?
+Honestly, I haven’t lost my cool in the past two months. I take pride in maintaining a calm and professional demeanor, even during high-pressure or frustrating situations. That’s something I’ve developed over time—through experience leading teams, handling client escalations, and managing critical projects.
+There were few stressful and disagreement scenarios , like for one of our teams , the data was coming out from RAG pipeline but it was not getting reflected in their responses and hence there was disagreement, but in such scenarios , instead of loosing calm, i take a step back , reflect on the next course of action and then reengage with clarity.
+
+Q:what sort of modd swings you get, how high are high and how low are low?
+Answer:
+I maintain a fairly even temperament, so I don't experience extreme mood swings. I do have moments of high energy and enthusiasm—especially when we hit major milestones, solve a challenging problem, or see the team succeed. Those highs are motivating, but I try not to let them cloud long-term focus.
+
+On the other hand, when things don’t go as planned—like a delay, unexpected blocker, or team issue—I do feel the weight of it, but I don't let it affect my behavior or decision-making. I process it calmly, reflect on what can be done better, and move forward with a practical mindset.
+
+In short, I stay emotionally steady. I celebrate wins with perspective and handle setbacks with resilience. That balance helps me lead teams confidently and stay grounded under pressure.
+
+Q: How have you changes in recent years:
+Answer:
+Yes, I’ve definitely changed and grown in meaningful ways over the past few years. Earlier in my career, I was more focused on individual contribution—solving technical challenges, building AI models, and delivering outcomes directly. But over time, I’ve shifted my focus on enabling teams, aligning with business goals, and thinking in terms of systems and long-term impact.
+
+I’ve also become more structured in how I lead—investing time in better communication, proactive planning, and stakeholder alignment. Emotionally, I’ve become more patient and resilient. I’ve learned to navigate ambiguity, manage pressure, and stay calm during setbacks, which has helped me support others better too.
+
+Overall, the biggest change is that I now measure success less by what I personally build and more by the success, growth, and output of the teams and systems I help shape. That shift in perspective is what’s driving me to take on engineering management roles
+
+Q: what sort of orgaisational changes have you found easiesta dn difficult to accept
+Answer:
+Generally I have found it easiest to adapt to changes involving technology, tools, and processes—like migrating to a new platform or integrating new AI/ML frameworks. These are usually backed by clear benefits, and I enjoy exploring better ways of working. I’m naturally curious, so technical or process-level change feels like an opportunity for growth.
+
+On the other hand, changes related to unclear leadership transitions, shifting priorities without proper communication, or a lack of alignment between teams are more challenging to accept for me. as it lead to friction and confusion. But in my experience in order to navigate these situations i lean on whats in my control i.e., communicating more proactively, helping align teams, and pushing for clarity where possible.
+
+Ultimately, I’ve come to see change as a constant—and my approach is to stay flexible, keep listening, and help others adapt smoothly too.
+
+Q: Biggest risk taken in recent year:
+answer:One of the biggest risk I took was Changing my domain entirely from steel manufacturing to Data science , and letting go the technical experience of 4 years gained in that particular domain, although in hindsight the leadership and management principle did help me in my current role, but technically it was a complete shift. apart from that , very recently we tried to use a finetuned small transformer model on BERT instead of open ai gpt4O mini which was working perfectly but was incurring cost due to pay per token policy, so in order to optimise the operational cost i took the risk of finetuning a small transformer model instead , which required us to manually prepare the dataset with the help of llms etc. We were able to achieve similar accuracy as  Gpt 4o Mini , which was very satisfying outcome for me.
+
+Q:Compromise integrity
+answer:I am sorry , but I haven't encountered such scenario in any of organisations i have worked with.
+
+Q; good manager you have worlked with:
+One of the best managers I’ve worked with was someone who combined clarity, empathy, and high standards in a very balanced way. What stood out most was their ability to communicate a clear vision while still giving the team the autonomy to figure out how to get there. They were approachable, listened actively, and genuinely cared about both the work and the people behind it.
+
+They gave timely feedback—both appreciative and constructive—and created a space where it felt safe to ask questions, take ownership, and grow. Even under pressure, they remained calm and focused, which helped anchor the whole team.
+
+What I appreciated most was that they led by example—whether it was handling a tough client conversation, mentoring a junior teammate, or taking responsibility for a failed decision. That kind of integrity, trust, and consistency made it very motivating to work with them and gave me a model for how I want to lead.
+
+Q: Best Co worker:
+Answer; One of the best co-workers I’ve worked with was a devops Architect, I collaborated ollaborated with on a complex AI integration project. What made them stand out was their mix of deep technical expertise, clear communication, and a truly collaborative mindset.
+
+They were the kind of person who could break down technical challenges without ego, and always looked for the most efficient path forward—even if it meant discarding their own solution in favor of a better one. 
+
+What I appreciated most was their reliability and calmness under pressure. No matter how tight the deadline or complex the issue, they stayed solution-focused and positive—which helped keep the entire team motivated. Working with them made the entire project more enjoyable and successful
+
+Q difficult person to have worked with:
+
+One of the more difficult experiences I had was while leading an AI implementation project for a client. A team member (python developer) consistently missed deadlines, was often unresponsive during critical phases of the project and didnt attend progress review calls. Despite multiple reminders and support, their lack of accountability started impacting the overall delivery timeline and team morale.
+
+As the project lead, I had to step in—first privately discussing the issue to understand if there were personal challenges or gaps in clarity. I also clearly laid out expectations, added structure to task tracking, and redistributed a few key responsibilities to minimize risk. Eventually, I had to escalate the issue to management, and we brought in another resource to ensure successful delivery.
+
+This experience taught me the importance of early intervention, setting clear accountability, and maintaining professionalism without letting emotions take over. It also strengthened my ability to lead under pressure
+
+Q: assertiveness:
+answer:
+I would describe my assertiveness as thoughtful and balanced. I’m confident in expressing my ideas, needs, and concerns clearly and respectfully, especially when it comes to project goals, team priorities, or technical decisions.At the same time, I listen actively to others and remain open to different perspectives, which helps me find common ground and build consensus. In one such scenarios , our client wanted to introduce a chatbot for generating Failure mode analysis document(FMEA) which will be powered by LLM agents, while I was on board with the idea of using LLM agents to create FMEA, I was skeptical about user experience if the user has to type in lot text in a chatbot interface, isntead i suggested a form based approach with dropdown menu where options wilbe generated by LLM , but user can select from many options andedit, this way it will be quick and less taxing on the user while generatingthe document and also i showed a simple PoC comparison between two approaches, which clearly showcased the User experience pitfalls in case of chatbot, which was taken positively by the Stakeholder and finally my suggested methods was implemented.
+
+Q how derive business works:
+answer:Deriv.com is an online trading platform that offers a diverse range of financial instruments and trading tools to cater to both novice and experienced traders. Deriv operates as a broker, providing clients with access to global financial markets through its proprietary and third-party trading platforms. The company's business model revolves around offering a variety of trading instruments, including forex, commodities, cryptocurrencies, stock indices, and synthetic indices, to meet the diverse needs of traders like Deriv X, Deriv Trader, DMT5 etc
+
+Q:What actions in first week after joining:
+
+In my first week at Deriv Malaysia as an AI Engineering Manager, I would focus on quickly understanding the business and technical landscape, building strong relationships, understanding ongoing projects and future roadmap for the AI team to support Deriv’s trading platforms and innovation goals.I will have a deep dive into Deriv’s core business model—online trading platforms like Deriv Trader, Deriv X,etc., and AI-driven features, review existing AI and ML projects, models, and pipelines,familiarize myself with the current tech stack, data infrastructure, and regulatory compliance requirements specific to Malaysia and other target markets.
+Apart from this other focus area will be around building relationships with key stakeholders and teaam members like AI engineers, data scientists, product managers, and platform teams to understand their roles, pain points, and aspirations. Post this, i would identify any immediate technical or process blockers affecting AI project delivery and help them unblock it and set clear expectations around goals, responsibilities, and success metrics for the team.
+
+
+Q: what questions do you have about the company and the role you are applying for
+answer:1. What are the immediate priorities, challenges the AI team is facing or expected to tackle in next 3-6 months?
+2.How the success for this role and AI team is measured right now?
+3. what level of  influence This role will have to help shape the AI strategy , hiring and technical direction?
+4. How does the current SDLC cycle for AI projects looks like?
+5. What are the company long term role and vision for AI usage and adoption and how does this role helps in that?
+
+Q:management style and philosophy:
+answer: My management style is collaborative, empowering, and outcome-oriented. I believe in building a high-trust environment where engineers feel ownership over their work, understand the larger business context, and are encouraged to experiment, learn, and grow.I focus on aligning the team with clear goals, providing the right balance of autonomy and support, and removing blockers so they can do their best work. I value open communication and  regular feedback (both ways). From a technical leadership perspective, I’m hands-on enough to guide architecture,research, develop MVPs, review code, or troubleshoot ML workflows when needed but my goal is to scale through people, not micromanage. I also care deeply about mentoring and career development, especially helping team members evolve from individual contributors into leaders.Ultimately, my philosophy is to lead with clarity, empathy, and accountability balancing innovation with discipline so that the team not only ships high-quality AI solutions but also grows, motivated and thrives in the process.
+
+Q: do you beleieve amanger shoudl be hands on or handsoff?
+Ansswer:
+I believe an effective manager needs to be adaptable—both hands-on and hands-off depending on the situation and the maturity of the team.When the team is experienced and functioning well, a hands-off approach empowers them, builds trust, and encourages ownership. However, during critical phases or firefightings, such as early-stage projects, production issues, or when the team is understaffed or junior, a hands-on approach is necessary to lead by example, unblock progress, and maintain momentum.In my own practice, I stay close enough to the technical and strategic work to provide meaningful guidance, review designs, or jump into problem-solving when needed. But I avoid micromanagement.So ultimately, I believe in being 'hands-on enough to lead effectively, but hands-off enough to let people grow.
+
+Q: strength and shortcomings:
+answer: My team would likely say that my strengths lie in being approachable, supportive,Clear communication and technically sound. I make it a priority to help unblock tmy them quickly whether that’s through mentoring, architectural input, or aligning with stakeholders .In terms of shortcomings, I’ve been told that I sometimes take on too much personally in an effort to protect the team or ensure delivery—rather than delegating early enough. I am conscious of it and I now focus more on empowering others, even when it takes extra upfront time. I’ve also worked on stepping back a little more to let others lead initiatives, which helps with their growth and avoids bottlenecks.
+
+Q: in what ways you woudl modify your approach in delaing with your associates
+Answer: 
+In the past, I’ve leaned toward being very solution-oriented and hands-on, especially when deadlines were tight. While that’s helpful in fast-paced environments, I’ve realized that some team members thrive better when given more space to explore and fail safely.So, I’ve been modifying my approach by Delegating more intentionally to support growth and ownership.I am also making more room now for informal check-ins, not just task-related updates, to better understand what motivates each team member and how they’re feeling beyond their output. This  will help in building trust and long-term engagement.
+
+Q: write employee fedback form:
+XXX is a technically strong and reliable AI engineer who consistently delivers high-quality work on time. She has a solid grasp of software enegineering concepts, python language, Gen AI frameworks like Langchain, machine learning concepts, model development, and deployment pipelines, and often takes initiative in exploring new approaches to improve performance. One of her key strengths is her ability to work independently with minimal supervision while maintaining clear communication with the team. She's also a quick learner and adapts well to evolving project requirements whetehr its in modification of RAG pipeline or introduction of Agentic framework or evaluating guardrail framweorks. An area where she can improve is in stakeholder communication particularly in translating technical progress into business impact. With some coaching, she is making good progress on that front. Overall, she has been a valuable contributor to the team and continues to grow steadily in both technical depth and collaborative maturity.
